@@ -1,9 +1,14 @@
-a=["shweta","gunjan","arti","shivani","nidhi","deeksha","neha","alka"]
-print(a)
-while True:
-    i=-1
-    i=i-3
-    if len(a)-1:
-        i=a.index(0)
-        a.remove(i)
-        i=i+1
+import random
+
+# Fixed: the original version tried to remove the value 0 from a list of
+# names with a.index(0), which does not exist in the list and would crash.
+# This version randomly eliminates one player at a time until a winner remains.
+players = ["shweta", "gunjan", "arti", "shivani", "nidhi", "deeksha", "neha", "alka"]
+print(players)
+
+while len(players) > 1:
+    i = random.randint(0, len(players) - 1)
+    eliminated = players.pop(i)
+    print(eliminated, "is out!")
+
+print("Winner:", players[0])
