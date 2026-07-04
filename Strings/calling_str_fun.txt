@@ -21,7 +21,6 @@ while string=="y":
     elif a == 3:
         a = (input("enter string:"))
         if islowercase(a):
-            print(b)
             print("yes")
         else:
             print("no")
