@@ -122,26 +122,49 @@ During a deep audit of the repository, over 15 critical bugs, logic errors, and 
 
 ## 🚀 Getting Started
 
-### Installation
-1. Clone this repository to your local machine.
-2. (Optional) Install fast Levenshtein matching:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *Note: If requirements are not installed, the application automatically falls back to standard library `difflib` matching.*
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Shweta-Mishra-ai/python.git
+cd python
+```
 
-### Run the Dashboard
-Launch the unified dashboard:
+### 2. Set Up a Virtual Environment (Recommended)
+Isolate your project dependencies by setting up a local virtual environment:
+
+* **Windows (PowerShell)**:
+  ```powershell
+  python -m venv venv
+  .\venv\Scripts\Activate.ps1
+  ```
+* **Windows (Command Prompt)**:
+  ```cmd
+  python -m venv venv
+  .\venv\Scripts\activate.bat
+  ```
+* **macOS / Linux**:
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+
+### 3. Install Dependencies (Optional)
+The core functionalities of the dashboard, games, and tools run on Python's built-in standard library. However, if you want enhanced fuzzy matching performance, you can install the optional dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Interactive Dashboard
+Launch the unified console panel to play games or run scripts:
 ```bash
 python main.py
 ```
 
-### Run Diagnostic Unit Tests
-Execute the unit tests:
+### 5. Run Diagnostic Unit Tests
+Verify the integrity of all calculation models by executing the test runner:
 ```bash
 python -m unittest discover -s tests
 ```
-All utility calculations (math, string, and list operators) are covered by **29 diagnostic unit tests** to prevent regression.
+All core utilities are guarded by **29 diagnostic unit tests** to prevent regression.
 
 ---
 *Developed with ❤️ and refactored to the highest quality standards by Shweta Mishra.*
