@@ -1,74 +1,9 @@
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="auto">
-    <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#3776AB;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#4584B6;stop-opacity:1" />
-      </linearGradient>
-      <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-        <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.3"/>
-      </filter>
-    </defs>
-    <rect width="800" height="200" rx="15" fill="url(#grad1)" />
-    <!-- Background patterns -->
-    <circle cx="100" cy="50" r="80" fill="white" opacity="0.05" />
-    <circle cx="700" cy="150" r="120" fill="white" opacity="0.05" />
-    <path d="M 0,150 Q 200,100 400,150 T 800,150 L 800,200 L 0,200 Z" fill="white" opacity="0.1" />
-    
-    <!-- Python logo symbol -->
-    <g transform="translate(50, 45) scale(1.5)" filter="url(#shadow)">
-      <path d="M 35 15.5 A 4.8 4.8 0 0 0 30.2 20.3 L 30.2 25 A 1 1 0 0 0 31.2 26 L 36 26 A 3.8 3.8 0 0 1 39.8 29.8 L 39.8 34.6 A 1 1 0 0 0 40.8 35.6 L 45.6 35.6 A 4.8 4.8 0 0 0 50.4 30.8 L 50.4 20.3 A 4.8 4.8 0 0 0 45.6 15.5 L 35 15.5 Z" fill="#FFE873"/>
-      <path d="M 24.6 24.4 A 4.8 4.8 0 0 0 19.8 29.2 L 19.8 39.7 A 4.8 4.8 0 0 0 24.6 44.5 L 35.2 44.5 A 4.8 4.8 0 0 0 40 39.7 L 40 35 A 1 1 0 0 0 39 34 L 34.2 34 A 3.8 3.8 0 0 1 30.4 30.2 L 30.4 25.4 A 1 1 0 0 0 29.4 24.4 L 24.6 24.4 Z" fill="#306998"/>
-      <circle cx="34.5" cy="20.5" r="1" fill="#306998"/>
-      <circle cx="35.5" cy="39.5" r="1" fill="#FFE873"/>
-    </g>
-
-    <!-- Title Text -->
-    <text x="180" y="95" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="white" filter="url(#shadow)">Python Master</text>
-    <text x="182" y="135" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="white" opacity="0.9">Interactive Logic, Games &amp; Utilities Suite</text>
-  </svg>
+  <img src="data/banner.svg" width="800" alt="Python Master Banner">
 </p>
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="100%" height="auto">
-    <defs>
-      <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="800" height="100" rx="10" fill="url(#grad2)" stroke="#334155" stroke-width="1.5" />
-    
-    <!-- Item 1: Code Quality -->
-    <g transform="translate(40, 20)">
-      <circle cx="25" cy="30" r="20" fill="#0284c7" opacity="0.2" />
-      <text x="25" y="35" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#0284c7" text-anchor="middle">✨</text>
-      <text x="60" y="24" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">PEP 8 Standard</text>
-      <text x="60" y="44" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">100% Clean Code</text>
-    </g>
-
-    <!-- Divider 1 -->
-    <line x1="250" y1="20" x2="250" y2="80" stroke="#334155" stroke-width="1" />
-
-    <!-- Item 2: Test Suite -->
-    <g transform="translate(290, 20)">
-      <circle cx="25" cy="30" r="20" fill="#22c55e" opacity="0.2" />
-      <text x="25" y="35" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#22c55e" text-anchor="middle">✔</text>
-      <text x="60" y="24" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Diagnostic Tests</text>
-      <text x="60" y="44" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">29 Unit Tests Passed</text>
-    </g>
-
-    <!-- Divider 2 -->
-    <line x1="510" y1="20" x2="510" y2="80" stroke="#334155" stroke-width="1" />
-
-    <!-- Item 3: Reorganized -->
-    <g transform="translate(550, 20)">
-      <circle cx="25" cy="30" r="20" fill="#eab308" opacity="0.2" />
-      <text x="25" y="35" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#eab308" text-anchor="middle">📁</text>
-      <text x="60" y="24" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Structured Layout</text>
-      <text x="60" y="44" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Clean, Modular Design</text>
-    </g>
-  </svg>
+  <img src="data/dashboard.svg" width="800" alt="Python Master Dashboard">
 </p>
 
 # 🐍 Python Master: Interactive Logic, Games & Analytics Suite
@@ -127,7 +62,9 @@ python-master/
 ├── main.py                     # Unified interactive console dashboard
 ├── data/                       # Datasets & resource files
 │   ├── cities_data.txt         # Fuzzy-search city corpus
-│   └── webseries.json          # Structured movie & ratings dataset
+│   ├── webseries.json          # Structured movie & ratings dataset
+│   ├── banner.svg              # Title banner graphic
+│   └── dashboard.svg           # Tech status developer card
 ├── games/                      # Refactored terminal mini-games
 │   ├── __init__.py
 │   ├── rock_paper_scissors.py  # Bug-free Rock Paper Scissors
