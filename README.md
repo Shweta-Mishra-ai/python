@@ -12,6 +12,7 @@
 [![Tests Status](https://img.shields.io/badge/Tests-29%20Passed-brightgreen?logo=github-actions&logoColor=white)](https://github.com)
 [![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-green)](https://peps.python.org/pep-0008/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Shweta-Mishra-ai/python?style=social)](https://github.com/Shweta-Mishra-ai/python)
 
 A beautifully refactored Python repository specializing in custom algorithms, interactive terminal mini-games, mathematical checkers, string processors, and similarity engines.
 
@@ -165,6 +166,12 @@ Verify the integrity of all calculation models by executing the test runner:
 python -m unittest discover -s tests
 ```
 All core utilities are guarded by **29 diagnostic unit tests** to prevent regression.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this repository helpful, please consider giving it a ⭐ on GitHub! It helps others discover the project and shows your appreciation.
 
 ---
 *Developed with ❤️ and refactored to the highest quality standards by Shweta Mishra.*
