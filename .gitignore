@@ -1,1 +1,21 @@
-webseries/
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project logs and temp files
+*.log
+.gemini/
+mypass*

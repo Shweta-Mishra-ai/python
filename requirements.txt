@@ -1,0 +1,3 @@
+# Core packages (optional, standard library fallback included)
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0
